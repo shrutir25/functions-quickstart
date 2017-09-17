@@ -1,6 +1,6 @@
 module.exports = function (context, req) {
     context.log('JavaScript HTTP trigger function processed a request.');
-
+    console.log('wohoo got it printing');	
     if (req.query.name || (req.body && req.body.name)) {
         context.res = {
             // status: 200, /* Defaults to 200 */
